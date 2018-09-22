@@ -1,0 +1,5 @@
+Resources:
+  StartWorkflowAPIGLambdaFunction2:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: sample/sample2.handler

@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+  StartWorkflowAPIGLambdaFunction2:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: sample/sample2.handler
+  StartWorkflowAPIGLambdaFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: sample/sample.handler
+Description: description
+Outputs:
+  Test:
+    value: sample value
+
