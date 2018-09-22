@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
 const fs = require('fs');
-const merge = require('../src/merge').default;
+const merge = require('../index').default;
 
 describe('merge', function () {
     it('should support the absolute path of the folder to be scanned and the target file', (done) => {
