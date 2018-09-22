@@ -9,7 +9,7 @@ The merger to merge the multiple template files for the AWS Cloudformation into 
 
 ## Why implemented? 
 
-The [AWS SAM CLI](https://github.com/awslabs/aws-sam-cli) is a great tool to provide a convenient way to make a package and deploy to the AWS account easily.  However, since it supports only one cloudformation template file, we need a tool to combine multiple yml files before packaging. 
+The [SAM CLI](https://github.com/awslabs/aws-sam-cli) is a great tool to provide a convenient way to make a package and deploy to the AWS account easily.  However, since it supports only one cloudformation template file, we need a tool to combine multiple yml files before packaging. 
 
 Let's assume a project folder structure as below.
 
@@ -34,7 +34,7 @@ $ sam package --template-file merged-cfn.yml --output-template-file serverless-o
 $ sam deploy --template-file serverless-output.yaml --stack-name a-great-stack-name --capabilities CAPABILITY_IAM
 ```
 
-## Example
+## How the yml files to be merged.
 
 Let's assume a folder A contains multiple yaml files as below:
 

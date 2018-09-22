@@ -8,8 +8,10 @@
   },
   "keywords": [
     "aws",
+    "cloudformation",
     "template",
     "yaml",
+    "yml",
     "merge"
   ],
   "author": "Hochul Shin",
