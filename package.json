@@ -1,6 +1,6 @@
 {
   "name": "cloudformation-yml-merger",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "This is to merge multiple AWS cloudformation template yaml files into one.",
   "main": "index.js",
   "scripts": {
