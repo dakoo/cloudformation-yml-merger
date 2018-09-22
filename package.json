@@ -12,10 +12,11 @@
     "template",
     "yaml",
     "yml",
-    "merge"
+    "merge",
+    "package"
   ],
-  "author": "Hochul Shin",
-  "license": "ISC",
+  "author": "Hochul Shin<hochul.shin0@gmail.com> (http://hochulshin.com)",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.3.2",
     "js-yaml": "^3.12.0",
@@ -25,5 +26,9 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dakoo/cloudformation-yml-merger.git"
   }
 }
