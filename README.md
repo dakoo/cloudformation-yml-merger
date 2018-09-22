@@ -106,12 +106,12 @@ $ npm install -g cloudformation-yml-merger
 ## How to use
 
 ```javascript
-const merger = require('cloudformation-yml-merger');
+const merge = require('cloudformation-yml-merger').default;
 
 ...
 
 try {
-  merger.merge(absolute-path-to-folder-containing-yml-files, target-yml-file-name);
+  merge(absolute-path-to-folder-containing-yml-files, absolute-path-target-yml-file);
 } catch (err) {
   console.log('failed to merge the yml files', err);
 }
